@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Additive Chemical Usage form </title>
+    <title>Additive Chemical Usage form</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="icon" href="./images/favico.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -42,14 +42,14 @@
                 <label for="RSD">Product</label>
                 
                     <input type="text" id="wapdapeak"
-                        name="AdditiveChemicalUsage Product" required placeholder=""
+                        name="AdditiveChemicalUsage Product" required placeholder="Enter Product"
                     >
                 </div>
                 <div class="wrapper">
                     <label for="RSD"> Date</label>
         
                     <input type="date" required min="0" id="wapdatotal"
-                        name="AdditiveChemicalUsage Date" required placeholder="">
+                        name="AdditiveChemicalUsage Date" required placeholder="Enter Date">
                 </div>
 
                 <div class="wrapper">
@@ -65,19 +65,19 @@
                 <label for="RSD">Batch No.</label>
                     <input type="number" required min="0" id="wapdaoffpeak"
                         name="AdditiveChemicalUsage Batch No" required
-                        placeholder="0">
+                        placeholder="Enter Batch No.">
                 </div>
             
 
                 <div class="wrapper">
                     <label for="RSD">Time</label>
                     <input type="time"  id="wapdatotal"
-                        name="AdditiveChemicalUsage time" required placeholder="">
+                        name="AdditiveChemicalUsage time" required placeholder="Enter Time">
                 </div> 
                 <div class="wrapper">
                     <label for="RSD">Product Dip Time</label>
                     <input type="text"  id="wapdatotalend"
-                        name="AdditiveChemicalUsage Product Dip Time(min/sec)" required placeholder="Min/Sec">
+                        name="AdditiveChemicalUsage Product Dip Time(min/sec)" required placeholder="Enter Product Dip Time">
                 </div>
             </div>
 
@@ -88,7 +88,7 @@
                         </label>
                         
                             <input type="text" id="gen1Units" name="AdditiveChemicalUsage Chemical Name" required
-                                placeholder="">
+                                placeholder="Enter Chemical Name">
                     </div>
 
                     <div class="wrapper">
@@ -96,7 +96,7 @@
                         </label>
                         
                             <input type="text" id="gen1Units" name="AdditiveChemicalUsage Usage Purpose" required
-                                placeholder="">
+                                placeholder="Enter Usage Purpose">
                     </div>
 
 
@@ -104,7 +104,7 @@
                     <div class="wrapper">
                         <label for="RSD">Concentration 0.4-1%</label>
                             <input type="number" id="gen1diesel" name= "AdditiveChemicalUsage Concentration 0.4-1%" required
-                                placeholder="0" min="0">
+                                placeholder="Enter Concentration" min="0">
                     </div>
                 </div>
 
@@ -115,7 +115,7 @@
                     <div class="wrapper">
                         <label for="RSD">Issued Quality</label>
                             <input type="text" id="gen1diesel" name= "AdditiveChemicalUsage Issued Quality" required
-                                placeholder="" min="0">
+                                placeholder="Enter Issued Quality" min="0">
                     </div>
                 
 
@@ -125,13 +125,13 @@
                            <div class="wrapper">
                         <label for="RSD">Dosed Quantity</label>
                             <input type="number" id="gen1diesel" name= "AdditiveChemicalUsage Dosed Quantity" required
-                                placeholder="0" min="0">
+                                placeholder="Enter Dosed Quantity" min="">
                     </div>
 
                     <div class="wrapper">
                         <label for="RSD">Temperature</label>
                             <input type="number" id="gen1diesel" name= "AdditiveChemicalUsage Temperature" required
-                                placeholder="C/F" min="0">
+                                placeholder="Enter Temperature C/F" min="0">
                     </div>
                 </div>
                 <!--  last three -->
@@ -139,19 +139,19 @@
                             <div class="wrapper">
                         <label for="RSD">Lab Result</label>
                             <input type="text" id="gen1diesel" name= "AdditiveChemicalUsage Lab Result" required
-                                placeholder="" min="0">
+                                placeholder="Enter Result" min="0">
                     </div>
                     <div class="wrapper">
                     <label for="RSD">Verified by(QA Rep)</label>
                     <input type="text" id="gen1diesel" name= "AdditiveChemicalUsage Verified by(QA Rep)" required
-                        placeholder="" min="0">
+                        placeholder="Enter Verification" min="0">
                     </div>
 
 
                     <div class="wrapper">
                         <label for="RSD">Total(kg)</label>
                             <input type="number" id="gen1diesel" name= "AdditiveChemicalUsage Total(kg)" required
-                                placeholder="0" min="0">
+                                placeholder="Enter Total(kg)" min="0">
                     </div>
                         </div>
                         
@@ -222,7 +222,7 @@
 
     <!-- reseting form after submitting -->
     <script>
-        document.getElementById('WapdaConsumptionForm').addEventListener('submit', function (event) {
+        document.getElementById('AdditiveChemicalUsageform').addEventListener('submit', function (event) {
             event.preventDefault(); // Prevent the default form submission
 
             this.reset();
